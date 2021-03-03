@@ -68,7 +68,6 @@ public class ResultService{
         if(existingResult == null){
             return null;
         }else {
-            existingResult.setRoll(result.getRoll());
             existingResult.setBangla(result.getBangla());
             existingResult.setEnglish(result.getEnglish());
             existingResult.setMath(result.getMath());
